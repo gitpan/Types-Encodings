@@ -1,0 +1,32 @@
+---
+abstract: 'type constraints for Bytes and Chars'
+author:
+  - 'Toby Inkster <tobyink@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.59
+configure_requires:
+  ExtUtils::MakeMaker: 6.59
+distribution_type: module
+dynamic_config: 0
+generated_by: 'Module::Install version 1.06'
+keywords: []
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: Types::Encodings
+name: Types-Encodings
+no_index:
+  directory:
+    - inc
+    - t
+    - xt
+requires:
+  Type::Library: 0.004
+  perl: 5.8.1
+resources:
+  bugtracker: http://rt.cpan.org/Dist/Display.html?Queue=Types-Encodings
+  homepage: https://metacpan.org/release/Types-Encodings
+  license: http://dev.perl.org/licenses/
+  repository: https://github.com/tobyink/p5-types-encodings
+version: 0.001
